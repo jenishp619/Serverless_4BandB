@@ -1,0 +1,90 @@
+.App {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Ml{  
+  text-align: center;  
+  background-color: white;
+  height: 50%;
+  width: 80%;
+  margin: 5% 5% 5% 5%;
+}
+.posts {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.posts .MuiCardContent-root {
+  height: 150px;
+}
+
+.App .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 1000px;
+  margin: 0 20px 0 0 !important;
+}
+
+.App button {
+  height: 56px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1200px) {
+  .App .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 800px;
+  }
+}
+
+@media (max-width: 970px) {
+  .App .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 600px;
+  }
+}
+
+@media (max-width: 750px) {
+  .App .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 400px;
+  }
+}
+
+@media (max-width: 523px) {
+  .App .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    margin: 0 0 20px 0 !important;
+  }
+}
